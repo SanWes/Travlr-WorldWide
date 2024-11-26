@@ -11,6 +11,7 @@ Travlr Worldwide is a travel blog application designed to connect users through 
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact Information](#contact-information)
 
 ## Project Description
 
@@ -68,3 +69,7 @@ Contributions are welcome! Feel free to open a pull request or create an issue i
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Contact Information
+
+For inquiries or collaborations, feel free to contact connect on [LinkedIn](https://www.linkedin.com/in/wesley-sanchez/).
