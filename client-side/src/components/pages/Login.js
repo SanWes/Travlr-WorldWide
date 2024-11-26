@@ -3,6 +3,8 @@ import axios from 'axios';
 import { useHistory } from 'react-router-dom';
 import '../../App.css'
 
+const API_BASE_URL = process.env.REACT_APP_SERVER_URL;
+
 const Login = () => {
 
     const [formInfo, setFormInfo] = useState({
@@ -24,7 +26,7 @@ const Login = () => {
 
     const loginhandler = (e) => {
         e.preventDefault()
-        axios.post("http://localhost:8000/api/travlr/login", formInfo, {withCredentials: true})
+        axios.post(`${API_BASE_URL}/api/travlr/login`, formInfo, {withCredentials: true})
         .then(res=>{
             console.log(res)
             if(res.data.msg === "success!") {

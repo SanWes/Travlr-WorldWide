@@ -3,6 +3,8 @@ import axios from 'axios';
 import { useHistory } from 'react-router-dom';
 import '../../App.css'
 
+const API_BASE_URL = process.env.REACT_APP_SERVER_URL;
+
 const PostForm = () => {
 
     const [postInfo, setPostInfo] = useState({
@@ -28,7 +30,7 @@ const PostForm = () => {
 
     const postFormHandler = (e) => {
         e.preventDefault()
-        axios.post("http://localhost:8000/api/travlr/CreatePost", postInfo)
+        axios.post(`${API_BASE_URL}/api/travlr/CreatePost`, postInfo)
         .then(res=>{
             // write code that will execute when form is sent
             // save the post into database

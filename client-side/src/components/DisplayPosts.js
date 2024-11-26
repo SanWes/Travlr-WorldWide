@@ -2,13 +2,16 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import '../App.css';
 
+const API_BASE_URL = process.env.REACT_APP_SERVER_URL;
+
+
 const DisplayPosts = () => {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('http://localhost:8000/api/travlr/AllPosts');
+                const response = await axios.get(`${API_BASE_URL}/api/travlr/AllPosts`);
                 if (response.data.errors) {
                     console.log("VALIDATION ERRORS");
                     console.log("LOOK HERE BUGGGG", response.data.posts);

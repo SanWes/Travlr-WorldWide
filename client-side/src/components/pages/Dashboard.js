@@ -4,6 +4,8 @@ import { useHistory } from 'react-router-dom';
 import '../../App.css';
 import Cards from '../Cards';
 
+const API_BASE_URL = process.env.REACT_APP_SERVER_URL;
+
 const Dashboard = () => {
 
     const [loggedinUser, setLoggedinUser] = useState([])
@@ -11,7 +13,7 @@ const Dashboard = () => {
     const history = useHistory();
 
     useEffect(()=> {
-        axios.get("http://localhost:8000/api/travlr/users/loggedin", {withCredentials: true})
+        axios.get(`${API_BASE_URL}/api/travlr/users/loggedin`, {withCredentials: true})
             .then(res=>{
                 setLoggedinUser(res.data.user)
             })
@@ -22,7 +24,7 @@ const Dashboard = () => {
     }, [loggedinUser, history])
 
     const logouthandler = (e)=>{
-        axios.get("http://localhost:8000/api/travlr/users/logout", {withCredentials: true})
+        axios.get(`${API_BASE_URL}/api/travlr/users/logout`, {withCredentials: true})
             .then(res=>{
                 console.log(res)
                 history.push("/")

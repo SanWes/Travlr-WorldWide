@@ -6,6 +6,7 @@ require('dotenv').config();
 const COSTAPI = process.env.COST_OF_LIVING_API_KEY
 const BASE_URL = 'https://cost-of-living-and-prices.p.rapidapi.com';
 
+
 class CostApiController {
     constructor() {
         this.method = 'GET';

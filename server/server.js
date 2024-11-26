@@ -2,9 +2,15 @@ require('dotenv').config();
 const express = require("express");
 const cors = require("cors");
 const cookies = require("cookie-parser");
-const port = 8000;
+const port = process.env.PORT || 8000;
 const app = express();
 
+const API_BASE_URL = process.env.REACT_APP_SERVER_URL;
+
+const allowedOrigins = [
+    'http://localhost:3000',
+    'https://travlrww.netlify.app'
+]
 
 app.use((err, req, res, next) => {
     console.error(err.stack);
@@ -13,7 +19,7 @@ app.use((err, req, res, next) => {
 
 
 app.use(cors(
-    {credentials: true, origin: 'http://localhost:3000'}
+    {credentials: true, origin: allowedOrigins},
 ));
 
 app.use(express.json());//tells my app that it can parse json

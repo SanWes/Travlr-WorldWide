@@ -3,6 +3,8 @@ import axios from 'axios';
 import { useHistory } from "react-router-dom";
 import '../../App.css'
 
+const API_BASE_URL = process.env.REACT_APP_SERVER_URL || 'http://localhost:8000';
+
 const Register =() => {
     
     const [formInfo, setFormInfo] = useState({
@@ -27,7 +29,7 @@ const Register =() => {
     
     const submithandler = (e) =>{
         e.preventDefault();
-        axios.post('http://localhost:8000/api/travlr/register', formInfo, {withCredentials: true})
+        axios.post(`${API_BASE_URL}/api/travlr/register`, formInfo, {withCredentials: true})
         .then(res=>{
             console.log(res)
             if(res.data.errors){
