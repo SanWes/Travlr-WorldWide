@@ -1,0 +1,506 @@
+{
+"city_id": 536,
+"city_name": "Boca Chica",
+"state_code": null,
+"country_name": "Dominican Republic",
+"exchange_rate": {
+    "EUR": 0.94530377809561,
+    "AUD": 1.5785315840171819,
+    "USD": 1,
+    "CAD": 1.3880500368195823,
+    "CNY": 7.31730161145935,
+    "CZK": 23.31949566152831,
+    "DKK": 7.065037845236756,
+    "GBP": 0.8245383845325615,
+    "HKD": 7.820948120783355,
+    "JPY": 149.67198809673482,
+    "NZD": 1.7208744816190407,
+    "NOK": 11.22002134495931,
+    "RUB": 94.2036571912567,
+    "KRW": 1356.2199135803287,
+    "CHF": 0.9021856368653349,
+    "UAH": 36.44419351880824,
+    "SEK": 11.227716117713008
+},
+"exchange_rates_updated": {
+    "date": "2023-10-27",
+    "timestamp": 1698441663
+},
+"prices": [
+    {
+    "good_id": 5,
+    "item_name": "Pair of Jeans in a Chain Store Like George, H&M, Zara, etc.",
+    "category_id": 3,
+    "category_name": "Clothing And Shoes",
+    "min": 441.05,
+    "avg": 490.06,
+    "max": 539.07,
+    "usd": {
+        "min": "7.75",
+        "avg": "8.61",
+        "max": "9.47"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 6,
+    "item_name": "Pair of Leather Business Shoes",
+    "category_id": 3,
+    "category_name": "Clothing And Shoes",
+    "min": 1323.16,
+    "avg": 1470.18,
+    "max": 1617.2,
+    "usd": {
+        "min": "23.25",
+        "avg": "25.84",
+        "max": "28.42"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 10,
+    "item_name": "Banana, 1 kg",
+    "category_id": 4,
+    "category_name": "Markets",
+    "min": 27.21,
+    "avg": 30.24,
+    "max": 33.27,
+    "usd": {
+        "min": "0.48",
+        "avg": "0.53",
+        "max": "0.58"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 11,
+    "item_name": "Beef Round or Equivalent Back Leg Red Meat, 1 kg ",
+    "category_id": 4,
+    "category_name": "Markets",
+    "min": 158.66,
+    "avg": 176.28,
+    "max": 193.91,
+    "usd": {
+        "min": "2.79",
+        "avg": "3.10",
+        "max": "3.41"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 12,
+    "item_name": "Bottle of Wine, Mid-Range Price",
+    "category_id": 4,
+    "category_name": "Markets",
+    "min": 352.74,
+    "avg": 391.93,
+    "max": 431.13,
+    "usd": {
+        "min": "6.20",
+        "avg": "6.89",
+        "max": "7.58"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 13,
+    "item_name": "Chicken Breasts, Boneless and Skinless, 1 kg",
+    "category_id": 4,
+    "category_name": "Markets",
+    "min": 97.04,
+    "avg": 107.82,
+    "max": 118.61,
+    "usd": {
+        "min": "1.71",
+        "avg": "1.89",
+        "max": "2.08"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 14,
+    "item_name": "Domestic Beer, 0.5 liter Bottle",
+    "category_id": 4,
+    "category_name": "Markets",
+    "min": 89.57,
+    "avg": 100.41,
+    "max": 111.25,
+    "usd": {
+        "min": "1.57",
+        "avg": "1.76",
+        "max": "1.96"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 15,
+    "item_name": "Eggs, 12 pack",
+    "category_id": 4,
+    "category_name": "Markets",
+    "min": 49.06,
+    "avg": 73.59,
+    "max": 117.52,
+    "usd": {
+        "min": "0.86",
+        "avg": "1.29",
+        "max": "2.07"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 18,
+    "item_name": "Loaf of Fresh White Bread, 0.5 kg",
+    "category_id": 4,
+    "category_name": "Markets",
+    "min": 88.43,
+    "avg": 112.39,
+    "max": 150.04,
+    "usd": {
+        "min": "1.55",
+        "avg": "1.98",
+        "max": "2.64"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 19,
+    "item_name": "Local Cheese, 1 kg",
+    "category_id": 4,
+    "category_name": "Markets",
+    "min": 110.39,
+    "avg": 122.66,
+    "max": 134.93,
+    "usd": {
+        "min": "1.94",
+        "avg": "2.16",
+        "max": "2.37"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 20,
+    "item_name": "Milk, Regular,1 liter",
+    "category_id": 4,
+    "category_name": "Markets",
+    "min": 44.16,
+    "avg": 49.06,
+    "max": 53.97,
+    "usd": {
+        "min": "0.78",
+        "avg": "0.86",
+        "max": "0.95"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 23,
+    "item_name": "Pack of Cigarettes",
+    "category_id": 4,
+    "category_name": "Markets",
+    "min": 176.63,
+    "avg": 196.25,
+    "max": 215.88,
+    "usd": {
+        "min": "3.10",
+        "avg": "3.45",
+        "max": "3.79"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 25,
+    "item_name": "White Rice, 1 kg",
+    "category_id": 4,
+    "category_name": "Markets",
+    "min": 54.2,
+    "avg": 55.34,
+    "max": 56.48,
+    "usd": {
+        "min": "0.95",
+        "avg": "0.97",
+        "max": "0.99"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 27,
+    "item_name": "Water, 1.5 liter Bottle",
+    "category_id": 4,
+    "category_name": "Markets",
+    "min": 29.67,
+    "avg": 39.36,
+    "max": 49.06,
+    "usd": {
+        "min": "0.52",
+        "avg": "0.69",
+        "max": "0.86"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 28,
+    "item_name": "One bedroom apartment outside of city centre",
+    "category_id": 5,
+    "category_name": "Rent Per Month",
+    "min": 4900.6,
+    "avg": 8821.65,
+    "max": 12742.7,
+    "usd": {
+        "min": "86.12",
+        "avg": "155.03",
+        "max": "223.93"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 29,
+    "item_name": "One bedroom apartment in city centre",
+    "category_id": 5,
+    "category_name": "Rent Per Month",
+    "min": 14702.37,
+    "avg": 15045.81,
+    "max": 15389.25,
+    "usd": {
+        "min": "258.37",
+        "avg": "264.41",
+        "max": "270.44"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 32,
+    "item_name": "Cappuccino",
+    "category_id": 6,
+    "category_name": "Restaurants",
+    "min": 39.36,
+    "avg": 98.13,
+    "max": 228.77,
+    "usd": {
+        "min": "0.69",
+        "avg": "1.72",
+        "max": "4.02"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 33,
+    "item_name": "Coca-Cola, 0.33 liter Bottle",
+    "category_id": 6,
+    "category_name": "Restaurants",
+    "min": 19.51,
+    "avg": 21.68,
+    "max": 23.85,
+    "usd": {
+        "min": "0.34",
+        "avg": "0.38",
+        "max": "0.42"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 34,
+    "item_name": "Domestic Beer, 0.5 liter Draught",
+    "category_id": 6,
+    "category_name": "Restaurants",
+    "min": 49.06,
+    "avg": 114.67,
+    "max": 228.77,
+    "usd": {
+        "min": "0.86",
+        "avg": "2.02",
+        "max": "4.02"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 35,
+    "item_name": "Imported Beer, 0.33 liter Bottle",
+    "category_id": 6,
+    "category_name": "Restaurants",
+    "min": 147.19,
+    "avg": 171.72,
+    "max": 196.25,
+    "usd": {
+        "min": "2.59",
+        "avg": "3.02",
+        "max": "3.45"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 36,
+    "item_name": "McMeal at McDonalds or Alternative Combo Meal",
+    "category_id": 6,
+    "category_name": "Restaurants",
+    "min": 283.42,
+    "avg": 314.92,
+    "max": 346.42,
+    "usd": {
+        "min": "4.98",
+        "avg": "5.53",
+        "max": "6.09"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 37,
+    "item_name": "Meal for 2 People, Mid-range Restaurant, Three-course",
+    "category_id": 6,
+    "category_name": "Restaurants",
+    "min": 2646.32,
+    "avg": 2940.36,
+    "max": 3234.4,
+    "usd": {
+        "min": "46.51",
+        "avg": "51.67",
+        "max": "56.84"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 38,
+    "item_name": "Meal in Inexpensive Restaurant",
+    "category_id": 6,
+    "category_name": "Restaurants",
+    "min": 147.19,
+    "avg": 220.78,
+    "max": 588.19,
+    "usd": {
+        "min": "2.59",
+        "avg": "3.88",
+        "max": "10.34"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 42,
+    "item_name": "Cinema ticket, 1 Seat",
+    "category_id": 8,
+    "category_name": "Sports And Leisure",
+    "min": 220.78,
+    "avg": 245.32,
+    "max": 269.86,
+    "usd": {
+        "min": "3.88",
+        "avg": "4.31",
+        "max": "4.74"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 45,
+    "item_name": "Gasoline, 1 liter",
+    "category_id": 9,
+    "category_name": "Transportation",
+    "min": 55.97,
+    "avg": 62.18,
+    "max": 68.4,
+    "usd": {
+        "min": "0.98",
+        "avg": "1.09",
+        "max": "1.20"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 53,
+    "item_name": "Prepaid Mobile Tariff Local, price per 1 min, No Discounts or Plans",
+    "category_id": 10,
+    "category_name": "Utilities Per Month",
+    "min": 4.62,
+    "avg": 5.13,
+    "max": 5.65,
+    "usd": {
+        "min": "0.08",
+        "avg": "0.09",
+        "max": "0.10"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 54,
+    "item_name": "Basic utilities for 85 square meter Apartment including Electricity, Heating or Cooling, Water and Garbage",
+    "category_id": 10,
+    "category_name": "Utilities Per Month",
+    "min": 1588.1,
+    "avg": 1764.56,
+    "max": 1941.02,
+    "usd": {
+        "min": "27.91",
+        "avg": "31.01",
+        "max": "34.11"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 55,
+    "item_name": "Internet, 60 Mbps or More, Unlimited Data, Cable/ADSL",
+    "category_id": 10,
+    "category_name": "Utilities Per Month",
+    "min": 1960.24,
+    "avg": 2737.83,
+    "max": 4291.88,
+    "usd": {
+        "min": "34.45",
+        "avg": "48.11",
+        "max": "75.42"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 58,
+    "item_name": "Water, 0.33 liter Bottle",
+    "category_id": 4,
+    "category_name": "Markets",
+    "min": 14.83,
+    "avg": 57.62,
+    "max": 100.41,
+    "usd": {
+        "min": "0.26",
+        "avg": "1.01",
+        "max": "1.76"
+    },
+    "measure": "money",
+    "currency_code": "DOP"
+    },
+    {
+    "good_id": 65,
+    "item_name": "Mortgage Interest Rate in Percentages for 20 Years Fixed-Rate, Yearly, Fixed-Rate",
+    "category_id": 7,
+    "category_name": "Salaries And Financing",
+    "min": 11.25,
+    "avg": 12.5,
+    "max": 13.75,
+    "measure": "percent"
+    }
+],
+"error": null
+}

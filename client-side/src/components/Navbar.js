@@ -29,7 +29,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                    TRVLR WW <i className="fas fa-map-marked-alt"/>
+                    TRVLR W W <i className="fas fa-map-marked-alt"/>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         {/* Hamburger Menu  if statement to change when it's clicked or not by altering state variable*/}
@@ -40,10 +40,10 @@ function Navbar() {
                             <Link to="/dashboard" className="nav-links" onClick={closeMobileMenu}>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/services" className="nav-links" onClick={closeMobileMenu}>Services</Link>
+                            <Link to="/services" className="nav-links" onClick={closeMobileMenu}>Travel Destinations</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/products" className="nav-links" onClick={closeMobileMenu}>Products</Link>
+                            <Link to="/products" className="nav-links" onClick={closeMobileMenu}>Tales of Quests</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>Sign In</Link>

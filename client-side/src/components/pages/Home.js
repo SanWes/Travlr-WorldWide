@@ -9,6 +9,8 @@ function Home() {
         <>
             <HeroSection/>
             <Cards />
+            <Cards />
+            <Cards />
             <Footer/>
         </>
     )

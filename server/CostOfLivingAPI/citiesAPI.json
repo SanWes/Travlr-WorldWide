@@ -1,0 +1,144 @@
+citiesAPI = {
+    "city_id": 3917,
+    "city_name": "Liberia",
+    "country_name": "Costa Rica",
+    "lat": 10.6345964,
+    "lng": -85.4406747,
+    "state_code": null
+    },
+    {
+    "city_id": 3918,
+    "city_name": "Ojochal",
+    "country_name": "Costa Rica",
+    "lat": 9.088547,
+    "lng": -83.6498639,
+    "state_code": null
+    },
+    {
+    "city_id": 3919,
+    "city_name": "Curridabat",
+    "country_name": "Costa Rica",
+    "lat": 9.914550499999999,
+    "lng": -84.0386633,
+    "state_code": null
+    },
+    {
+    "city_id": 3920,
+    "city_name": "Desamparados",
+    "country_name": "Costa Rica",
+    "lat": 9.8969706,
+    "lng": -84.0616709,
+    "state_code": null
+    },
+    {
+    "city_id": 3921,
+    "city_name": "Guadalupe",
+    "country_name": "Costa Rica",
+    "lat": 9.946603099999999,
+    "lng": -84.0536463,
+    "state_code": null
+    },
+    {
+    "city_id": 3922,
+    "city_name": "Arenal",
+    "country_name": "Costa Rica",
+    "lat": 10.4626262,
+    "lng": -84.7031794,
+    "state_code": null
+    },
+    {
+    "city_id": 3923,
+    "city_name": "Ciudad Colón",
+    "country_name": "Costa Rica",
+    "lat": 9.914330699999999,
+    "lng": -84.2419551,
+    "state_code": null
+    },
+    {
+    "city_id": 3924,
+    "city_name": "Azua",
+    "country_name": "Dominican Republic",
+    "lat": 18.4531742,
+    "lng": -70.73468869999999,
+    "state_code": null
+    },
+    {
+    "city_id": 3925,
+    "city_name": "El Seibo",
+    "country_name": "Dominican Republic",
+    "lat": 18.7653036,
+    "lng": -69.0389048,
+    "state_code": null
+    },
+    {
+    "city_id": 3927,
+    "city_name": "San Juan de la Maguana",
+    "country_name": "Dominican Republic",
+    "lat": 18.8096268,
+    "lng": -71.2309935,
+    "state_code": null
+    },
+    {
+    "city_id": 3928,
+    "city_name": "San Pedro de Macoris",
+    "country_name": "Dominican Republic",
+    "lat": 18.46266,
+    "lng": -69.3051234,
+    "state_code": null
+    },
+    {
+    "city_id": 3929,
+    "city_name": "Moca",
+    "country_name": "Dominican Republic",
+    "lat": 19.3908634,
+    "lng": -70.5231108,
+    "state_code": null
+    },
+    {
+    "city_id": 3930,
+    "city_name": "Nagua",
+    "country_name": "Dominican Republic",
+    "lat": 19.3791006,
+    "lng": -69.8537844,
+    "state_code": null
+    },
+    {
+    "city_id": 3931,
+    "city_name": "Samana",
+    "country_name": "Dominican Republic",
+    "lat": 19.2030757,
+    "lng": -69.3387664,
+    "state_code": null
+    },
+    {
+    "city_id": 3932,
+    "city_name": "Elva",
+    "country_name": "Estonia",
+    "lat": 58.2214427,
+    "lng": 26.4067718,
+    "state_code": null
+    },
+    {
+    "city_id": 3934,
+    "city_name": "Reims",
+    "country_name": "France",
+    "lat": 49.258329,
+    "lng": 4.031696,
+    "state_code": null
+    },
+    {
+    "city_id": 3938,
+    "city_name": "Villeurbanne",
+    "country_name": "France",
+    "lat": 45.771944,
+    "lng": 4.8901709,
+    "state_code": null
+    },
+    {
+    "city_id": 3941,
+    "city_name": "Versailles",
+    "country_name": "France",
+    "lat": 48.801408,
+    "lng": 2.130122,
+    "state_code": null
+    },

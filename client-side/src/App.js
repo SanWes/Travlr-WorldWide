@@ -9,9 +9,12 @@ import SignUp from './components/pages/SignUp';
 import Dashboard from './components/pages/Dashboard';
 
 
+
 function App() {
+
+
   return (
-  <>
+    <> 
     <Router>
       <Navbar/>
 
@@ -32,7 +35,7 @@ function App() {
 
         </Switch>
     </Router>
-    </>
+    </> 
   );
 }
 

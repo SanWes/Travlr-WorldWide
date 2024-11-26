@@ -4,6 +4,7 @@ const jwt = require("jsonwebtoken");
 const secret = process.env.SECRET_KEY;
 
 class UserController {
+    
     register(req, res){
         const user = new User(req.body)
         user.save()
